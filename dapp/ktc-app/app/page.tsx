@@ -145,7 +145,7 @@ export default function Home() {
           <div style={{ display: "flex", alignItems: "center" }}>
             <Image src={cat.src as string} alt="Cat" width={80} height={80} />
             <p>{"KITCAT"}</p>
-            {ktcBalance && (
+            {ktcBalance !== null && (
               <div
                 style={{
                   marginLeft: "10px",
